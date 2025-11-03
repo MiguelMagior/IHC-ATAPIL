@@ -4,130 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Associação dos Trabalhadores Aposentados, Pensionistas e Idosos de Limeira - Mais de 30 anos promovendo bem-estar e qualidade de vida">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>ATAPIL</title>
+    <title>ATAPIL - Associação dos Trabalhadores Aposentados de Limeira</title>
 </head>
 
 <body>
-    <nav class="content-nav">
-        <div class="container" style="margin-left: 30px;">
-            <img src="assets/atapil.png" alt="Exemplo">
+    <nav class="content-nav" role="navigation" aria-label="Menu principal">
+        <div class="container">
+            <img src="assets/atapil.png" alt="Logo ATAPIL">
         </div>
-        <a href="#inicio">Início</a>
-        <a href="#quem-somos">Quem Somos</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-        <a class="btn-rose" style="margin-right: 30px;">Faça Parte</a>
+        <a href="#inicio" aria-label="Ir para seção Início">Início</a>
+        <a href="#quem-somos" aria-label="Ir para seção Quem Somos">Quem Somos</a>
+        <a href="#servicos" aria-label="Ir para seção Serviços">Serviços</a>
+        <a href="#contato" aria-label="Ir para seção Contato">Contato</a>
+        <a href="#associar" class="btn-rose" role="button" aria-label="Faça parte da ATAPIL">Faça Parte</a>
     </nav>
 
-    <main id="inicio" class="content-banner">
-        <h1 class="title-banner">Associação dos Trabalhadores Aposentados, Pensionistas e Idosos de Limeira</h1>
-        <div class="subtitle-banner">A mais de 30 anos levando o bem-estar até você</div>
-        <a class="btn-blue">Conhecer nosso trabalho</a>
+    <main>
+        <section id="inicio" class="content-banner" aria-label="Banner principal">
+            <h1 class="title-banner">Associação dos Trabalhadores Aposentados, Pensionistas e Idosos de Limeira</h1>
+            <p class="subtitle-banner">A mais de 30 anos levando o bem-estar até você</p>
+            <a href="#quem-somos" class="btn-blue" role="button" aria-label="Conhecer nosso trabalho">Conhecer nosso trabalho</a>
+        </section>
+
+        <section id="quem-somos" class="content-who" aria-labelledby="titulo-quem-somos">
+            <h2 id="titulo-quem-somos" class="title">Quem Somos</h2>
+            <div class="subcontent-who">
+                <img src="assets/couple.png" alt="Casal de idosos sorrindo, representando os associados da ATAPIL">
+                <div>
+                    <p class="text-who">
+                        A Associação dos Trabalhadores Aposentados, Pensionistas e Idosos de Limeira é uma entidade sem fins
+                        lucrativos dedicada a promover o bem-estar, os direitos e a qualidade de vida de aposentados,
+                        pensionistas e
+                        idosos. Através de uma ampla gama de serviços, apoio social, atividades culturais, recreativas e de
+                        capacitação, a associação busca fortalecer a integração e a participação ativa de seus membros na
+                        sociedade, defendendo suas causas e oferecendo suporte em diversas áreas, como saúde, previdência e
+                        educação.
+                        A associação também visa criar um espaço de convivência, onde todos possam trocar experiências, se
+                        apoiar
+                        mutuamente e, acima de tudo, garantir um envelhecimento com dignidade e respeito.
+                    </p>
+                    <div class="item-who" style="background-color: #6e84f5;">Integração com a comunidade</div>
+                    <div class="item-who" style="background-color: #e83c67;">Comprometimento com o seu bem estar</div>
+                    <div class="item-who" style="background-color: #ffba26;">Experiência de mais de 30 anos</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-video" aria-labelledby="titulo-video">
+            <div class="back-video" role="img" aria-label="Espaço reservado para vídeo institucional">
+                <span id="titulo-video" style="font-weight: 600;">Vídeo Institucional</span>
+            </div>
+        </section>
+
+        <section id="servicos" class="content-services" aria-labelledby="titulo-servicos">
+            <h2 id="titulo-servicos" class="title">Serviços</h2>
+            <div class="subcontent-services">
+                <article class="card">
+                    <img src="assets/law.png" alt="Ícone representando assistência jurídica">
+                    <h3 class="title-service">ASSISTÊNCIA JURÍDICA</h3>
+                </article>
+                <article class="card">
+                    <h3 class="title-service">ASSISTÊNCIA MÉDICA</h3>
+                    <img src="assets/medical.png" alt="Ícone representando assistência médica">
+                </article>
+                <article class="card">
+                    <img src="assets/odonto.png" alt="Ícone representando assistência odontológica">
+                    <h3 class="title-service">ASSISTÊNCIA ODONTOLÓGICA</h3>
+                </article>
+                <article class="card">
+                    <h3 class="title-service">COLÔNIA DE FÉRIAS, VIAGENS E EXCURSÕES</h3>
+                    <img src="assets/travel.png" alt="Ícone representando viagens e excursões">
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="content-contact" aria-labelledby="titulo-contato">
+            <h2 id="titulo-contato" class="title">Contato</h2>
+            <div class="subcontent-contact">
+                <img src="assets/paper.png" alt="Ilustração de documento representando informações de contato">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <br><span>Assessoria de Comunicação</span><br><br>
+                    <p>
+                        A Associação dos Trabalhadores Aposentados, Pensionistas e Idosos está sempre de portas abertas
+                        para ouvir você!
+                        Se você tem dúvidas, sugestões, deseja se associar ou saber mais sobre nossos serviços e
+                        atividades, entre
+                        em contato conosco por um dos canais abaixo:
+                    </p>
+
+                    <br>
+
+                    <h4>Endereço</h4>
+                    <address>
+                        <p>Rua Fabricio de Góes, 436 - Jardim Morro Azul<br>Limeira - SP</p>
+                    </address>
+
+                    <br>
+
+                    <h4>Contatos</h4>
+                    <ul>
+                        <li><i class="bi bi-person-fill" aria-hidden="true"></i><span>Contato Recepção:</span></li>
+                        <li><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Telefone: <a href="tel:+551934424633">(19) 3442-4633</a> | WhatsApp: <a href="https://wa.me/5519987672002">(19) 9 8767-2002</a></span></li>
+                        <li><i class="bi bi-person-fill" aria-hidden="true"></i><span>Contato Clínica:</span></li>
+                        <li><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Telefone: <a href="tel:+551934442827">(19) 3444-2827</a> | WhatsApp: <a href="https://wa.me/5519994089157">(19) 9 9408-9157</a></span></li>
+                        <li><i class="bi bi-envelope-fill" aria-hidden="true"></i><span>E-mail: <a href="mailto:presidencia.atapil@gmail.com">presidencia.atapil@gmail.com</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <section id="quem-somos" class="content-who">
-        <h2 class="title">Quem Somos</h2>
-        <div class="subcontent-who">
-            <img src="assets/couple.png" alt="">
-            <div>
-                <p class="text-who">
-                    A Associação dos Trabalhadores Aposentados, Pensionistas e Idosos de Limeira é uma entidade sem fins
-                    lucrativos dedicada a promover o bem-estar, os direitos e a qualidade de vida de aposentados,
-                    pensionistas e
-                    idosos. Através de uma ampla gama de serviços, apoio social, atividades culturais, recreativas e de
-                    capacitação, a associação busca fortalecer aintegração e a participação ativa de seus membros na
-                    sociedade,defendendo suas causas e oferecendo suporte em diversas áreas, comosaúde, previdência e
-                    educação.
-                    A associação também visa criar um espaço de convivência, onde todos possam trocar experiências, se
-                    apoiar
-                    mutuamente e, acima de tudo, garantir um envelhecimento com dignidade e respeito.
-                </p>
-                <div class="item-who" style="background-color: #6e84f5; width: 95%;">Integração com a comunidade</div>
-                <div class="item-who" style="background-color: #e83c67; width: 85%;">Comprometimento com o seu bem estar
-                </div>
-                <div class="item-who" style="background-color: #ffba26; width: 70%;">Comprometimento com o seu bem estar
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="content-video">
-        <div class="back-video">
-            <span style="font-weight: 600;">Video Institucional</span>
-        </div>
-    </section>
-
-    <section id="servicos" class="content-services">
-        <h2 class="title">Serviços</h2>
-        <div class="subcontent-services">
-            <div class="card">
-                <img src="assets/law.png" alt="">
-                <div class="title-service">ASSISTÊNCIA JURÍDICA</div>
-            </div>
-            <div class="card">
-                <div class="title-service">ASSISTÊNCIA MÉDICA</div>
-                <img src="assets/medical.png" alt="">
-            </div>
-            <div class="card">
-                <img src="assets/odonto.png" alt="">
-                <div class="title-service">ASSISTÊNCIA ODONTOLÓGICA</div>
-            </div>
-            <div class="card">
-                <div class="title-service">COLÔNIA DE FÉRIAS, VIAGENS E EXCURSÕES</div>
-                <img src="assets/travel.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section id="contato" class="content-contact">
-        <h2 class="title">Contato</h2>
-        <div class="subcontent-contact">
-
-            <img src="assets/paper.png" alt="">
-
-            <div>
-                <h3>Fale conosco</h3>
-                <br><span>Assesoria de Comunicação</span><br><br>
-                <p>
-                    A Associação dos Trabalhadores Aposentados, Pensionistas e Idosos está sempre de portas abertas
-                    para
-                    ouvir
-                    você!
-                    Se você tem dúvidas, sugestões, deseja se associar ou saber mais sobre nossos serviços e
-                    atividades,
-                    entre
-                    em contato conosco por um dos canais abaixo:
-                </p>
-
-                <br>
-
-                <h4>Endereço</h4>
-                <p>Rua Exemplo, nº 123 - Bairro - Cidade/UF - CEP 00000-000</p>
-
-                <br>
-
-                <h4>Contatos</h4>
-                <ul>
-                    <li><i class="bi bi-telephone-fill"></i> Telefone: (19) 999999999</li>
-                    <li><i class="bi bi-person-fill"></i> Nome: Neto Modenez</li>
-                    <li><i class="bi bi-envelope-fill"></i> E-mail: nxsx@gmail.com </li>
-                </ul>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="content-footer">
-        <ul>
-            <li><a href="#inicio">INÍCIO</a></li>
-            <li><a href="#quem-somos">QUEM SOMOS</a></li>
-            <li><a href="#sevicos">SERVIÇOS</a></li>
-            <li><a href="#contatos">CONTATOS</a></li>
-        </ul>
-        <div class="line"></div>
-        <span style="color: white;">© 2025 Company, Inc. All rights reserved.</span>
+    <footer class="content-footer" role="contentinfo">
+        <nav aria-label="Menu do rodapé">
+            <ul>
+                <li><a href="#inicio">INÍCIO</a></li>
+                <li><a href="#quem-somos">QUEM SOMOS</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#contato">CONTATOS</a></li>
+            </ul>
+        </nav>
+        <div class="line" role="separator"></div>
+        <span style="color: white;">© 2025 ATAPIL - Todos os direitos reservados.</span>
     </footer>
 </body>
 
