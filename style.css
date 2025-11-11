@@ -80,7 +80,7 @@ body {
 .content-nav a {
     text-decoration: none;
     font-weight: 500;
-    font-size: var(--font-sm);
+    font-size: var(--font-md);
     transition: color 0.3s ease;
     white-space: nowrap;
 }
@@ -128,7 +128,7 @@ body {
     text-decoration: none;
     transition: all 0.3s ease;
     width: fit-content;
-    font-size: var(--font-base);
+    font-size: var(--font-md);
     border: none;
 }
 
@@ -254,6 +254,7 @@ body {
 /* ===== SEÇÃO VÍDEO ===== */
 .content-video {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: clamp(21.875rem, 50vh, 31.25rem);
@@ -604,4 +605,19 @@ body {
         margin-top: 0;
         page-break-after: always;
     }
+}
+
+/*LINK VOLTAR AO TOPO*/
+.voltar{
+    margin: auto;
+    padding: 45px;
+    font-size: --font-sm;
+}
+
+.voltar{
+    text-decoration: none;
+}
+
+.voltar:hover {
+    color: var(--primary-blue);
 }
